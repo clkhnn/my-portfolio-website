@@ -168,7 +168,7 @@ becerilerimi daha da geliştirmek amacıyla halen çeşitli kurslar almaktayım.
             “Çok disiplinli ve hızlı çalışan bir geliştirici.”
           </p>
           <p className="text-sm text-gray-500 mt-2">
-            Oğuz Gonca — Tech Lead @ Yönetici
+            Oğuz Gonca — Turknet / Staj Yöneticisi
           </p>
         </div>
 
@@ -177,7 +177,7 @@ becerilerimi daha da geliştirmek amacıyla halen çeşitli kurslar almaktayım.
             “UI ve backend entegrasyonlarında çok başarılı.”
           </p>
           <p className="text-sm text-gray-500 mt-2">
-            Ersay Boyar — Founder @ (Staj)
+            Ersay Boyar — Founder @ CATS Yazılım (Staj Yöneticisi)
           </p>
         </div>
 
