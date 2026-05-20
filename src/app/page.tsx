@@ -1,6 +1,6 @@
 "use client";
-
-
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 export default function Page() {
 
 
@@ -263,8 +263,30 @@ becerilerimi daha da geliştirmek amacıyla halen çeşitli kurslar almaktayım.
 
         <p>📧 celikhan.celik10@gmail.com</p>
         <p>📱 +90 538 703 10 31</p>
-        <p>💼 LinkedIn: <a href ="https://linkedin.com/in/mustafa-celikhan-celik/" target = "_blank"> linkedin.com/in/mustafa-celikhan-celik/</a> </p>
-        <p>🐙 GitHub: <a href ="https://github.com/clkhnn" target = "_blank">github.com/clkhnn</a></p>
+        <p className="flex items-center gap-2">
+  <FaLinkedin />
+  <span>LinkedIn:</span>
+
+  <a
+    href="https://linkedin.com/in/mustafa-celikhan-celik/"
+    target="_blank"
+    className="text-blue-600 hover:underline"
+  >
+    linkedin.com/in/mustafa-celikhan-celik/
+  </a>
+</p>
+        <p className="flex items-center gap-2">
+  <FaGithub />
+  <span>GitHub:</span>
+
+  <a
+    href="https://github.com/clkhnn"
+    target="_blank"
+    className="hover:underline"
+  >
+    github.com/clkhnn
+  </a>
+</p>
       </div>
 
     </div>
