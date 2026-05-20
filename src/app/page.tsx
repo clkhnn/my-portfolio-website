@@ -263,8 +263,8 @@ becerilerimi daha da geliştirmek amacıyla halen çeşitli kurslar almaktayım.
 
         <p>📧 celikhan.celik10@gmail.com</p>
         <p>📱 +90 538 703 10 31</p>
-        <p>💼 LinkedIn: linkedin.com/in/mustafa-celikhan-celik/</p>
-        <p>🐙 GitHub: github.com/clkhnn</p>
+        <p>💼 LinkedIn: <a href ="linkedin.com/in/mustafa-celikhan-celik/" > linkedin.com/in/mustafa-celikhan-celik/</a> </p>
+        <p>🐙 GitHub: <a href ="github.com/clkhnn">github.com/clkhnn</a></p>
       </div>
 
     </div>
