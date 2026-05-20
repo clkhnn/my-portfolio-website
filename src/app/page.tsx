@@ -170,6 +170,9 @@ becerilerimi daha da geliştirmek amacıyla halen çeşitli kurslar almaktayım.
           <p className="text-sm text-gray-500 mt-2">
             Oğuz Gonca — Turknet / Staj Yöneticisi
           </p>
+          <p className="text-sm text-gray-500 mt-2">
+           0555 376 09 64
+          </p>
         </div>
 
         <div className="border p-6 rounded-xl">
@@ -178,6 +181,9 @@ becerilerimi daha da geliştirmek amacıyla halen çeşitli kurslar almaktayım.
           </p>
           <p className="text-sm text-gray-500 mt-2">
             Ersay Boyar — Founder @ CATS Yazılım (Staj Yöneticisi)
+          </p>
+          <p className="text-sm text-gray-500 mt-2">
+            0554 150 33 67
           </p>
         </div>
 
