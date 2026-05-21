@@ -1,7 +1,8 @@
 "use client";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-export default function Page() {
+import ContactForm from "@/components/ContactForm";
+export default function Page() { 
 
 
 return (
@@ -199,62 +200,8 @@ becerilerimi daha da geliştirmek amacıyla halen çeşitli kurslar almaktayım.
       <div>
         <h3 className="text-3xl font-bold mb-6">Bana Ulaş</h3>
 
-        <form
-          className="space-y-4"
-          onSubmit={async (e) => {
-            e.preventDefault();
+        <ContactForm/>
 
-            const formData = new FormData(e.currentTarget);
-            const name = String(formData.get("name") ?? "");
-            const email = String(formData.get("email") ?? "");
-            const message = String(formData.get("message") ?? "");
-
-            const res = await fetch("/api/contact", {
-              method: "POST",
-              headers: {
-                "Content-Type": "application/json",
-              },
-              body: JSON.stringify({ name, email, message }),
-            });
-
-            if (!res.ok) {
-              // Basit hata yönetimi: burada ileride toast/alert'e çevrilebilir
-              const data = await res.json().catch(() => null);
-              alert(data?.error ?? "Gönderim başarısız.");
-              return;
-            }
-
-            alert("Mesaj alındı. Teşekkürler!");
-            (e.currentTarget as HTMLFormElement).reset();
-          }}
-        >
-          <input
-            className="w-full p-3 border rounded-lg"
-            placeholder="Ad Soyad"
-            name="name"
-            autoComplete="name"
-            required
-          />
-          <input
-            className="w-full p-3 border rounded-lg"
-            placeholder="Email"
-            name="email"
-            type="email"
-            autoComplete="email"
-            required
-          />
-          <textarea
-            className="w-full p-3 border rounded-lg"
-            rows={5}
-            placeholder="Mesaj"
-            name="message"
-            required
-          />
-
-          <button className="bg-teal-600 text-white px-6 py-3 rounded-full hover:bg-teal-500 transition w-full">
-            Gönder
-          </button>
-        </form>
       </div>
 
       {/* CONTACT INFO */}
