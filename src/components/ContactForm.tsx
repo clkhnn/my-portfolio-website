@@ -34,7 +34,7 @@ export default function ContactForm() {
       const data = await res.json();
 
       if (res.status === 200 && data.success) {
-        alert("Mesaj başarıyla gönderildi. Teşekkürler!");
+        alert("Mailiniz başarıyla gönderildi. Teşekkürler!");
         setFormData({ name: "", email: "", message: "" });
       } else {
         alert(data.message || "Gönderim başarısız oldu.");
