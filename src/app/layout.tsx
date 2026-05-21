@@ -6,6 +6,7 @@ const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
 });
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
