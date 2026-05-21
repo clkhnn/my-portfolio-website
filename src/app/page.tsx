@@ -66,7 +66,7 @@ becerilerimi daha da geliştirmek amacıyla halen çeşitli kurslar almaktayım.
         <li>UDEMY / C#</li>
         <li>UDEMY / SQL</li>
         <li>UDEMY / Etik Hackleme </li>
-        <li>Self-learning & project based experience(Java, JavaScript, Next.js, TypeScript )</li>
+        <li>Self-learning & project based experience(Java, JavaScript, Next.js, TypeScript, Node.js )</li>
       </ul>
     </div>
     <div className="flex flex-col items-center mt-6">
@@ -178,7 +178,7 @@ becerilerimi daha da geliştirmek amacıyla halen çeşitli kurslar almaktayım.
 
         <div className="border p-6 rounded-xl">
           <p className="text-gray-700">
-            “UI ve backend entegrasyonlarında çok başarılı.”
+            “Öğrenme kabiliyeti yüksek, öğrendiklerini uygulamada çok başarılı.”
           </p>
           <p className="text-sm text-gray-500 mt-2">
             Ersay Boyar — Founder @ CATS Yazılım (Staj Yöneticisi)
