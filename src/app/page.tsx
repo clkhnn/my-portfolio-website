@@ -54,9 +54,9 @@ becerilerimi daha da geliştirmek amacıyla halen çeşitli kurslar almaktayım.
 
       <h4 className="font-semibold mt-8">Kariyer Geçmişi</h4>
       <ul className="list-disc ml-6 text-gray-700 mt-2 space-y-1">
-        <li>Frontend Developer - React projeleri</li>
-        <li>Backend Developer - Java projeleri</li>
-        <li>Full Stack Developer - Next.js & Node.js</li>
+        <li>Turknet - Stajyer</li>
+        <li>Cats Bilişim Yazılım Geliştirme Teknolojileri - Stajyer</li>
+        <li>Hitit Bilgisayar Hizmetleri - Stajyer</li>
       </ul>
 
       <h4 className="font-semibold mt-8">Eğitim</h4>
