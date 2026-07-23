@@ -73,7 +73,7 @@ becerilerimi daha da geliştirmek amacıyla halen çeşitli kurslar almaktayım.
 
   <div className="flex gap-4">
 <a
-  href="Çelikhan ÇelikCV.pdf"
+  href="Mustafa Çelikhan Çelik CV (Eng).pdf"
   target="_blank"
   className="bg-black text-white px-5 py-3 rounded-full hover:bg-gray-800 transition"
 >
@@ -81,7 +81,7 @@ becerilerimi daha da geliştirmek amacıyla halen çeşitli kurslar almaktayım.
 </a>
 
 <a
-  href="Çelikhan ÇelikCV.pdf"
+  href="Mustafa Çelikhan Çelik CV (Eng).pdf"
   download
   className="border border-gray-300 px-5 py-3 rounded-full hover:bg-gray-100 transition"
 >
