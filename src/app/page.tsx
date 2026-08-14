@@ -145,6 +145,7 @@ becerilerimi daha da geliştirmek amacıyla halen çeşitli kurslar almaktayım.
           "Java",
           "Git",
           "JavaScript",
+          "C#",
         ].map((tech) => (
           <span
             key={tech}
