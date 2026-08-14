@@ -30,7 +30,7 @@ return (
   {/* HERO */}
   <section className="max-w-6xl mx-auto px-6 py-20">
     <h2 className="text-4xl md:text-6xl font-bold">
-      Full Stack Developer
+      Back-End Developer
     </h2>
     <p className="text-gray-600 mt-6 max-w-2xl">
       Modern, hızlı ve ölçeklenebilir web uygulamalarından ayrı Java ile projeler geliştiriyorum.
